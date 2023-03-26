@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fatchan Muhammad Hakim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: #3C6255;
+            padding: 0px;
+            margin: 0px;
+        }
+        .countainer-h4{
+            font-size: 12pt;
+            font-family: monospace;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #EAE7B1;
+            cursor: cell;
+        }
+        .accordion-item{
+            background-color: #A6BB8D;
+        }
+        #countainer-button{
+            background-color: #61876E;
+        }
+        .flex-container{
+            display: flex;
+            background-color: #EAE7B1;
+        }
+        .flex-container div{
+            margin: 10px;
+	          padding: 20px;
+            background-color: #3C6255;
+            width: 160px;
+            height: 100px;
+            padding-top: 40px;
+            cursor: grabbing;
+            border-radius: 6px;
+        }
+        .flex-container div:hover{
+            margin: 10px;
+	          padding: 20px;
+            background-color: #EEF2E6;
+            width: 160px;
+            height: 100px;
+            padding-top: 40px;
+            cursor: grabbing;
+            border-radius: 6px;
+        }
+        .countainer-h4{
+            font-size: 12pt;
+            font-family: monospace;
+            font-weight: bold;
+            text-align: center;
+            margin-right: 9px;
+            text-transform: uppercase;
+            color: #EAE7B1;
+            cursor: no-drop;
+        }
+        .countainer-h4:hover{
+            font-size: 12pt;
+            font-family: monospace;
+            font-weight: bold;
+            text-align: center;
+            margin-right: 9px;
+            text-transform: uppercase;
+            color: #3C6255;
+            cursor: no-drop;
+        }
+        .countainer-jd4{
+            font-size: 20pt;
+            font-family: monospace;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            color: #EAE7B1;
+            cursor: no-drop;
+            margin-top: 50px;
+        }
+        .countainer-jd4:hover{
+            font-size: 20pt;
+            font-family: monospace;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            color: #A6BB8D;
+            cursor: no-drop;
+            margin-top: 50px;
+        }
+        div{
+          margin-top: 4px;
+          border-radius: 4px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <h4 class="countainer-jd4">hewan & suara</h4>
+    <br>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button id="countainer-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h4 class="countainer-h4">hewan ternak</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="flex-container">
+                <div class="bebek">
+                  <h4 class="countainer-h4">bebek</h4>
+                  <audio class="audio-bebek"></audio>
+                </div>
+                <div class="kambing">
+                  <h4 class="countainer-h4">kambing</h4>
+                  <audio class="audio-kambing"></audio>
+                </div>
+                <div class="sapi">
+                  <h4 class="countainer-h4">sapi</h4>
+                  <audio class="audio-sapi"></audio>
+                </div>  
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button id="countainer-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <h4 class="countainer-h4">hewan peliharaan</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="flex-container">
+                <div class="harimau">
+                  <h4 class="countainer-h4">harimau</h4>
+                  <audio class="audio-harimau"></audio>
+                </div>
+                <div class="singa">
+                  <h4 class="countainer-h4">singa</h4>
+                  <audio class="audio-singa"></audio>
+                </div>
+                <div class="elang">
+                  <h4 class="countainer-h4">elang</h4>
+                  <audio class="audio-elang"></audio>
+                </div>  
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button id="countainer-button" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <h4 class="countainer-h4">hewan buas</h4>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="flex-container">
+                <div id="kobra">
+                  <h4 class="countainer-h4">kobra</h4>
+                  <audio id="audio-kobra"></audio>
+                </div>
+                <div id="macanputih">
+                  <h4 class="countainer-h4">macan putih</h4>
+                  <audio id="audio-macanputih"></audio>
+                </div>
+                <div id="macantutul">
+                  <h4 class="countainer-h4">macan tutul</h4>
+                  <audio id="audio-macantutul"></audio>
+                </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script>
+  
+  // Start Bebek
+  $("ducument").ready(function(){
+      $(".bebek").click(function(){
+        $(this).css({
+          "background" : "url('images/bebek.jpeg')",
+          "border-radius" : "4px"
+      });
+    });
+
+    $(".bebek").click(function(){
+      $(".audio-bebek").attr({
+        "src" : "audio/suara-bebek.mp3",
+        "volume" : 0.4,
+        "autoplay" : "autoplay"
+      }).appendTo(".bebek");
+    });
+  });
+  // End Bebek
+    
+  // Start Kambing
+  $("ducument").ready(function(){
+      $(".kambing").click(function(){
+        $(this).css({
+          "background" : "url('images/kambing.jpg')",
+          "background-size" : "200px",
+          "background-position" : "center",
+          "border-radius" : "4px"
+        });
+      });
+      
+      $(".kambing").click(function(){
+        $(".audio-kambing").attr({
+          "src" : "audio/suara-kambing.mp3",
+          "volume" : 0.1,
+          "autoplay" : "autoplay"
+        }).appendTo(".kambing")
+      });
+    });
+  // End Kambing
+
+  // Start Sapi
+  $("ducement").ready(function(){
+    $(".sapi").click(function(){
+      $(this).css({
+        "background" : "url('images/sapi.jpg')",
+        "border-radius" : "4px"
+      });
+    });
+    
+      $(".sapi").click(function(){
+        $(".audio-sapi").attr({
+          "src" : "audio/suara-sapi.mp3",
+          "volume" : 0.5,
+          "autoplay" : "autoplay"
+        }).appendTo(".sapi")
+      });
+    });
+  // End Sapi
+  
+  // Start Harimau
+  $("document").ready(function(){
+    $(".harimau").click(function(){
+      $(this).css({
+        "background" : "url('images/harimau.jpg')",
+        "border-radius" : "4px",
+        "background-position" : "center",
+        "background-size" : "160px",
+      });
+    });
+
+    $(".harimau").click(function(){
+      $(".audio-harimau").attr({
+        "src" : "audio/suara-harimau.mp3",
+        "volume" : 0.10,
+        "autoplay" : "autoplay"
+      });
+    });
+  });
+  
+  // Start Singa
+  $("ducument").ready(function(){
+    $(".singa").click(function(){
+      $(this).css({
+        "background" : "url('images/singa.jpg')",
+        "border-radius" : "4px",
+        "background-position" : "center"
+      });
+    });
+
+    $(".singa").click(function(){
+      $(".audio-singa").attr({
+        "src" : "audio/suara-singa-betina.mp3",
+        "volume" : 0.3,
+        "autoplay" : "autoplay"
+      });
+    });
+  });
+  // End Singa
+
+  // Start Elang
+  $("document").ready(function(){
+    $(".elang").click(function(){
+      $(this).css({
+        "background" : "url('images/elang.jpg')",
+        "border-radius" : "4px"
+      });
+    });
+
+    $(".elang").click(function(){
+      $(".audio-elang").attr({
+        "src" : "audio/suara-elang.mp3",
+        "volume" : 0.3,
+        "autoplay" : "autoplay"
+      });
+    });
+  });
+  // End Elang
+  
+  // Starr kobra
+  $("document").ready(function(){
+    $("#kobra").click(function(){
+      $(this).css({
+        "background" : "url('images/kobra.jpg')",
+        "border-radius" : "4px"
+      });
+    });
+
+    $("#kobra").click(function(){
+      $("#audio-kobra").attr({
+        "src" : "audio/suara-kobra.mp3",
+        "volume" : 0.6,
+        "autoplay" : "autoplay"
+      });
+    });
+  });
+  // End kobra
+
+  // Start Macan Putih 
+  $("document").ready(function(){
+    $("#macanputih").click(function(){
+      $(this).css({
+        "background" : "url('images/macan-putih.jpg')",
+        "border-radius" : "4px",
+        "background-position" : "center"
+      });
+    });
+
+    $("#macanputih").click(function(){
+      $("#audio-macanputih").attr({
+        "src" : "audio/suara-macan.mp3",
+        "volume" : 0.4,
+        "autoplay" : "autoplay"
+      });
+    });
+  });
+  // End Macan Putih
+
+  // Start Macan tutul
+  $("document").ready(function(){
+    $("#macantutul").click(function(){
+      $(this).css({
+        "background" : "url('images/macan-tutul.jpg')",
+        "border-radius" : "4px",
+        "background-position" : "top center"
+      });
+    });
+
+    $("#macantutul").click(function(){
+      $("#audio-macantutul").attr({
+        "src" : "audio/suara-macan.mp3",
+        "volume" : 0.4,
+        "autoplay" : "autoplay"
+      });
+    });
+  });
+  // End Macan Tutul
+    </script>
+  </body>
+</html>
